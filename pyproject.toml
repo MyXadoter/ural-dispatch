@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ural-dispatch"
+version = "0.1.0"
+description = "Планирование маршрутов выездных инженеров"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+api = ["fastapi>=0.115,<1", "uvicorn>=0.30,<1"]
+
+[project.scripts]
+ural-dispatch = "dispatch.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["dispatch*"]
+

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#193d35" />
+    <title>Самоцветы — рабочий день под контролем</title>
+  </head>
+  <body>
+    <div id="root">
+      <section
+        id="file-launch"
+        hidden
+        style="
+          font:
+            16px/1.7 system-ui,
+            sans-serif;
+          max-width: 570px;
+          margin: 12vh auto;
+          padding: 38px;
+          background: #f2f6ed;
+          border: 1px solid #dce5d4;
+          border-radius: 20px;
+          color: #234d3c;
+        "
+      >
+        <span style="font-size: 12px; letter-spacing: 2px"
+          >УРАЛЬСКИЕ САМОЦВЕТЫ</span
+        >
+        <h1 style="font-size: 30px; line-height: 1.3">Откроем диспетчерскую</h1>
+        <p>
+          Вы открыли исходный HTML-файл. Для работы с заявками приложению нужен
+          локальный сервер.
+        </p>
+        <p>
+          <strong>1.</strong> В папке проекта дважды нажмите
+          <strong>start.command</strong>.<br /><strong>2.</strong> Дождитесь
+          сообщения «Сайт работает» и откройте ссылку ниже.
+        </p>
+        <a
+          href="http://127.0.0.1:8000"
+          style="
+            display: inline-block;
+            background: #245a46;
+            color: white;
+            text-decoration: none;
+            padding: 13px 20px;
+            border-radius: 8px;
+          "
+          >Открыть сайт →</a
+        >
+        <p style="font-size: 13px; color: #61765e">
+          Если сервер уже запущен, достаточно нажать кнопку.
+        </p>
+      </section>
+    </div>
+    <script>
+      if (location.protocol === "file:")
+        document.getElementById("file-launch").hidden = false;
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+    <noscript
+      >Для работы диспетчерской включите JavaScript в браузере.</noscript
+    >
+  </body>
+</html>

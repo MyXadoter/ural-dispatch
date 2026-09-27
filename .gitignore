@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+node_modules/
+.DS_Store
+output/
+.env
+.env.*
+!.env.example
+*.egg-info/
+build/
+dist/
+*.tsbuildinfo
+.pnpm-store/
+*.log
+# Duplicate copies of the organizer's dataset; the original is in Обезличивание/.
+/Обезличивание 2/
+/Обезличивание.zip

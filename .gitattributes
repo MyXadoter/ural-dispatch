@@ -1,0 +1,5 @@
+*.py text eol=lf
+*.sh text eol=lf
+*.command text eol=lf
+# Keep the original Windows-1251 CSV bytes, including their line endings.
+*.csv -text -diff
