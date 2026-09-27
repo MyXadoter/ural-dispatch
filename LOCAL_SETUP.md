@@ -42,7 +42,7 @@ py -3 -m venv .venv
 
 ## Вариант 2: исходники из GitHub
 
-Войдите в GitHub под аккаунтом с доступом к приватному репозиторию [MyXadoter/ural-dispatch](https://github.com/MyXadoter/ural-dispatch). Нажмите **Code → Download ZIP**, распакуйте архив и откройте терминал в папке проекта. Если Git уже настроен для доступа к GitHub, можно клонировать репозиторий:
+Откройте публичный репозиторий [MyXadoter/ural-dispatch](https://github.com/MyXadoter/ural-dispatch). Нажмите **Code → Download ZIP**, распакуйте архив и откройте терминал в папке проекта. Вход в GitHub не требуется. Если установлен Git, можно клонировать репозиторий:
 
 ```bash
 git clone https://github.com/MyXadoter/ural-dispatch.git
